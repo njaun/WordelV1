@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordel</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="Wordle_Logo.svg.png" type="image/png">
+</head>
+<body>
+    <div class="head">
+        <button id="signup" onclick="location.href='signup.html'">Sign Up</button>
+        <a href="links">  <!-- ieliec linku kad bus serveri-->
+            <img class="logo" src= "Wordle-Emblem.png">
+        <div id="pointsCounter" class="points-display">Points: 0</div>  
+        </a>
+    </div>
+    <div class="main">
+        
+        <div class="container">
+            <div class="grid"></div>
+            <div id="guessGrid"></div>
+            <div id="keyboard"></div>
+            <button id="newGameBtn" onclick="resetGame()">New Word</button>
+        </div>
+        <script src="app.js"></script>
+    </div>
+</body>
+</html>

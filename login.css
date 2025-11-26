@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
+.head{
+    width: 100vw;
+    height: 60px;
+    background-color: rgb(67, 67, 67);
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#home {
+    position: absolute;
+    left: 20px;
+    padding: 10px 16px;
+    background-color: #406e3b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+#home:hover {
+    background-color: #5a9a54;
+    transition: background-color 0.2s;
+}
+
+.logo{
+    height: 160px;
+    width: auto;
+    align-items: center;
+}
+
+.main{
+    height: 450px;
+    border-radius: 25px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 80px;
+    padding: 20px 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vw;
+    
+}
+
+.MainBox{
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0px 15px rgb(88, 88, 88) !important;
+    background-color: #4a4a4a;    
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Science Gothic", sans-serif;
+}
+
+input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+#button1{
+    background-color: #43843b;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Science Gothic", sans-serif;
+    margin-top: -40px;
+}
+
+#redirect{
+    color: rgb(156, 156, 156);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Science Gothic", sans-serif;
+}
