@@ -162,6 +162,10 @@ function checkGameEnd(lastGuess) {
     setTimeout(resetGame, 1000);
     
   }
+  else if (guesses.length >= GuessNr) {
+    alert(`Game Over! The word was: ${SecretWord}`);
+    setTimeout(resetGame, 100);
+}
 }
 
 function updatePointsDisplay() {
